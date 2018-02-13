@@ -1,0 +1,93 @@
+#greenRupee {
+    height: 250px;
+    width: 150px;
+}
+
+#redRupee {
+    height: 250px;
+    width: 150px;
+}
+
+#blueRupee {
+    height: 250px;
+    width: 150px;
+}
+
+#silverRupee {
+    height: 250px;
+    width: 150px;
+}
+
+.intro {
+    /* background-color: aqua; */
+    color: rgb(243, 243, 217);
+    font-size: 30pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.instructions {
+    /* background-color: orange; */
+    color: rgb(243, 243, 217);
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#goal {
+    color: rgb(116, 185, 12);
+    font-size: 30pt;
+    font-weight: bold;
+    height: 120px;
+    text-align: center;
+    margin-left: -15px;
+}
+.scoreboard {
+    color: rgb(243, 243, 217);
+}
+
+#gvalue {
+    color: rgb(243, 243, 217);
+    width: 20px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#rvalue {
+    color: rgb(243, 243, 217);
+    width: 20px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bvalue {
+    color: rgb(243, 243, 217);
+    width: 20px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#svalue {
+    color: rgb(243, 243, 217);
+    width: 20px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pickles {
+    font-size: 16pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#score {
+    font-size: 16pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+    background-image: url(../images/brushed.png);
+}

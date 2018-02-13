@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rupee Counters</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        
+    </head>
+
+    <body>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-4 intro">
+                        Rupee Scramble
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-5 instructions">
+                        <p>Welcome to the hyrule rupee game! 
+                        <br>
+                          Ganon has altered all of the values of the rupees in hyrule!
+                          It is up to you to undo his mischief!
+                        <br>
+                         In order to do this you must collect rupees to find out their values 
+                         (do this by clicking on the rupees), and gather the required amount of rupees
+                         to reverse the magic (required number is the green number)
+                        <br>
+                         Be warned though, ganon has released his minions to steal away your rupees if 
+                         you gather too many! Thus if you happen to gather even one more than the required
+                         amount they will steal them away from you and ganon will shuffle the values of
+                         each rupee up once again!
+                        <br>
+                         Good Luck Hero go and save the day!</p>
+
+                    </div>
+                    <div class="col-md-4 zelda">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-4">
+                        <div id="goal">
+                            777
+                        </div>
+                    </div>
+                    <div class="col-md-3 scoreboard">
+                        <h2 id="wins"> Wins : 0 </h2>
+                        <h2 id="loses"> Loses : 0 </h2>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-3">
+                            <img id="greenRupee" src="assets/images/greenrupee.png">
+                            <div id="gvalue"> 1 </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img id="blueRupee" src="assets/images/bluerupee.png">
+                            <div id="bvalue"> 5 </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img id="redRupee" src="assets/images/redrupee.png">
+                            <div id="rvalue"> 20 </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img id="silverRupee" src="assets/images/silverrupee.png">
+                            <div id="svalue"> 100 </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading pickles">Your current score is:</div>
+                        <div class="panel-body" id="score">
+                            93
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+    </html>
